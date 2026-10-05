@@ -12,3 +12,5 @@ document.open();document.write(h);document.close()}
 document.getElementById("f").onsubmit=function(e){e.preventDefault();go(document.getElementById("p").value.trim()).catch(function(){document.getElementById("e").textContent="Wrong password"})};
 try{var s=localStorage.getItem("sk_pw2");if(s)go(s).catch(function(){try{localStorage.removeItem("sk_pw2")}catch(e){}})}catch(e){}
 </script></body></html>
+
+<!-- r2 -->
